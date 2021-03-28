@@ -1,2 +1,4 @@
 # analizador-lexico
-Ana lizador lexico para la materia de Compiladores
+Analizador lexico para la materia de Compiladores
+
+Autor: Ana Isabel Jerez
