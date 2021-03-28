@@ -11,7 +11,8 @@ public enum TokenType {
     BOOLEAN(128),
     SEP_COLON(256),
     SEP_COMMA(512),
-    END_DOCUMENT(1024);
+    END_DOCUMENT(1024),
+    ERROR(2048);
 
     TokenType(int code) {
         this.code = code;

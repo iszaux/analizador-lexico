@@ -50,7 +50,9 @@ public class Tokenizer {
 				break;
 			}
 		}
-
+		if (isDigit(ch)) {
+			return readNumber();
+		}
 		switch (ch) {
 		case '{':
 			return new Token(TokenType.BEGIN_OBJECT, L_LLAVE);
@@ -73,12 +75,11 @@ public class Tokenizer {
 			return readString();
 		case '-':
 			return readNumber();
+		default:
+			return new Token(TokenType.ERROR, "Error léxico, caracter inválido: '" + ch + "'");
 		}
 
-		if (isDigit(ch)) {
-			return readNumber();
-		}
-		return null;
+
 	}
 
 	private boolean isWhiteSpace(char ch) {
