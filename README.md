@@ -7,6 +7,5 @@ Autor: Ana Isabel Jerez
 
 `javac src/py/una/pol/analizadorlexico/AnalizadorLexico.java fuente.txt`  
 
---
 Se generará un archivo llamado output.txt con el resultado
---
+
