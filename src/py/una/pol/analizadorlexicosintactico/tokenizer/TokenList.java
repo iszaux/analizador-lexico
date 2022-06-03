@@ -1,4 +1,4 @@
-package py.una.pol.analizadorlexico.tokenizer;
+package py.una.pol.analizadorlexicosintactico.tokenizer;
 
 import java.util.ArrayList;
 import java.util.List;

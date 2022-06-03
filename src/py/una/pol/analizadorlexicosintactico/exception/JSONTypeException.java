@@ -1,4 +1,4 @@
-package py.una.pol.analizadorlexico.exception;
+package py.una.pol.analizadorlexicosintactico.exception;
 
 public class JSONTypeException extends RuntimeException {
 

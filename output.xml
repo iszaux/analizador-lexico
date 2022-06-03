@@ -1,0 +1,23 @@
+<personas>
+    <item>   
+        <ci>1234567</ci>
+        <hijos></hijos>
+        <casado>false</casado>
+        <nombre>"Julio Pérez"</nombre>
+    </item>
+    <item>   
+        <ci>7654321</ci>
+        <hijos>
+            <item>           
+                <nombre>"Jorge"</nombre>
+                <edad>18</edad>
+            </item>
+            <item>           
+                <nombre>"Valeria"</nombre>
+                <edad>16</edad>
+            </item>            
+        </hijos>
+        <casado>false</casado>
+        <nombre>"Juan Gómez"</nombre>
+    </item>    
+</personas>
